@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/appBackgroundColor"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/ic_launcher_round"/>
+    <TextView
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="?attr/appPrimaryColor"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Welcome to ATTND"/>
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Teacher Registration"/>
+    <EditText
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/text_hint_grey"
+        android:id="@+id/etName"
+        android:background="@drawable/bg_popup_rounded"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Your Name"
+        android:maxLines="1"
+        android:inputType="textPersonName"
+        android:imeOptions="actionNext"/>
+    <EditText
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/text_hint_grey"
+        android:id="@+id/etPrincipalId"
+        android:background="@drawable/bg_popup_rounded"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="32dp"
+        android:hint="Enter Principal&apos;s ID"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionDone"/>
+    <Button
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/btnSaveProfile"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Save &amp; Continue"
+        android:textAllCaps="false"
+        android:backgroundTint="?attr/appPrimaryColor"/>
+</LinearLayout>

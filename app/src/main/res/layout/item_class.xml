@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="12dp"
+    app:strokeColor="?attr/appPrimaryColor">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/tvClassName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class 10-A"/>
+            <TextView
+                android:textSize="14sp"
+                android:textColor="@color/text_medium_grey"
+                android:id="@+id/tvSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mathematics"/>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/btnEdit"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_edit"
+            app:tint="?attr/appPrimaryColor"/>
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_delete"
+            android:layout_marginStart="7dp"
+            app:tint="@color/color_error"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

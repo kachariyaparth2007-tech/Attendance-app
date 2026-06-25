@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="appBackgroundColor" format="color" />
+    <attr name="appPrimaryColor" format="color" />
+    <attr name="appBlueTintLight" format="color" />
+    <attr name="appBlueTintMedium" format="color" />
+    <attr name="appBlueTintExtraLight" format="color" />
+    <attr name="appDividerColor" format="color" />
+    <attr name="appPrimaryColorAlpha15" format="color" />
+    <attr name="emptyStateImage" format="reference" />
+</resources>

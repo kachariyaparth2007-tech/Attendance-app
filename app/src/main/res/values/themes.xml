@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ATTND" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Default theme custom colors via attributes -->
+        <item name="colorPrimary">@color/nav_primary</item>
+        <item name="colorSecondaryContainer">@color/nav_indicator</item>
+
+        <!-- Theme Attributes mapping to Light Blue (Default) -->
+        <item name="appPrimaryColor">@color/nav_primary</item>
+        <item name="appBackgroundColor">@color/bg_app</item>
+        <item name="appBlueTintLight">#BBBFDBFE</item>
+        <item name="appBlueTintMedium">@color/blue_tint_medium</item>
+        <item name="appBlueTintExtraLight">@color/blue_tint_extra_light</item>
+        <item name="appDividerColor">@color/divider_color</item>
+        <item name="appPrimaryColorAlpha15">#260C56CD</item>
+        <item name="emptyStateImage">@drawable/bluee</item>
+    </style>
+
+    <style name="Theme.ATTND" parent="Base.Theme.ATTND" />
+
+    <!-- Light Green Theme -->
+    <style name="Theme.ATTND.Green" parent="Theme.ATTND">
+        <item name="colorPrimary">#536500</item>
+        <item name="colorSecondaryContainer">#F1F8D4</item>
+        <item name="appPrimaryColor">#536500</item>
+        <item name="appBackgroundColor">#F1F8D4</item>
+        <item name="appBlueTintLight">#E6EE9C</item>
+        <item name="appBlueTintMedium">#DCE775</item>
+        <item name="appBlueTintExtraLight">#F9FBE7</item>
+        <item name="appDividerColor">#E6EE9C</item>
+        <item name="appPrimaryColorAlpha15">#26536500</item>
+        <item name="emptyStateImage">@drawable/green</item>
+    </style>
+
+    <!-- Light Orange Theme -->
+    <style name="Theme.ATTND.Orange" parent="Theme.ATTND">
+        <item name="colorPrimary">#6E4628</item>
+        <item name="colorSecondaryContainer">#FBE9D5</item>
+        <item name="appPrimaryColor">#6E4628</item>
+        <item name="appBackgroundColor">#FBE9D5</item>
+        <item name="appBlueTintLight">#EAD7BC</item>
+        <item name="appBlueTintMedium">#D7CCC8</item>
+        <item name="appBlueTintExtraLight">#FBEDD5</item>
+        <item name="appDividerColor">#EAD7BC</item>
+        <item name="appPrimaryColorAlpha15">#266E4628</item>
+        <item name="emptyStateImage">@drawable/brown</item>
+    </style>
+
+    <!-- Light Purple Theme -->
+    <style name="Theme.ATTND.Purple" parent="Theme.ATTND">
+        <item name="colorPrimary">#6A1B9A</item>
+        <item name="colorSecondaryContainer">#F3E5F5</item>
+        <item name="appPrimaryColor">#6A1B9A</item>
+        <item name="appBackgroundColor">#F3E5F5</item>
+        <item name="appBlueTintLight">#E1BEE7</item>
+        <item name="appBlueTintMedium">#CE93D8</item>
+        <item name="appBlueTintExtraLight">#F3E5F5</item>
+        <item name="appDividerColor">#E1BEE7</item>
+        <item name="appPrimaryColorAlpha15">#266A1B9A</item>
+        <item name="emptyStateImage">@drawable/purple</item>
+    </style>
+
+    <!-- Light Pink Theme -->
+    <style name="Theme.ATTND.Pink" parent="Theme.ATTND">
+        <item name="colorPrimary">#68355D</item>
+        <item name="colorSecondaryContainer">#FFF1F9</item>
+        <item name="appPrimaryColor">#68355D</item>
+        <item name="appBackgroundColor">#FFF1F9</item>
+         <item name="appBlueTintLight">#89FBB6E3</item>
+        <item name="appBlueTintMedium">#F06292</item>
+        <item name="appBlueTintExtraLight">#FFF1F9</item>
+        <item name="appDividerColor">#FBB6E3</item>
+        <item name="appPrimaryColorAlpha15">#2668355D</item>
+        <item name="emptyStateImage">@drawable/pink</item>
+    </style>
+
+    <style name="BottomNavLabelStyle" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

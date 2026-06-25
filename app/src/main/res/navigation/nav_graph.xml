@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/nav_attendance">
+    <fragment
+        android:label="Classes"
+        android:name="com.example.attnd.fragments.ClassFragment"
+        android:id="@+id/nav_manage"/>
+    <fragment
+        android:label="Profile"
+        android:name="com.example.attnd.fragments.ProfileFragment"
+        android:id="@+id/nav_profile"/>
+    <fragment
+        android:label="Attendance"
+        android:name="com.example.attnd.fragments.AttendanceFragment"
+        android:id="@+id/nav_attendance">
+        <argument
+            android:name="className"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true"/>
+    </fragment>
+    <fragment
+        android:label="Reports"
+        android:name="com.example.attnd.fragments.ReportsFragment"
+        android:id="@+id/nav_reports"/>
+    <fragment
+        android:label="Manage Students"
+        android:name="com.example.attnd.fragments.StudentManageFragment"
+        android:id="@+id/nav_student_manage">
+        <argument
+            android:name="className"
+            app:argType="string"/>
+    </fragment>
+    <fragment
+        android:label="Daily Report"
+        android:name="com.example.attnd.fragments.DailyReportFragment"
+        android:id="@+id/nav_daily_report">
+        <argument
+            android:name="className"
+            app:argType="string"/>
+    </fragment>
+    <fragment
+        android:label="Summary Report"
+        android:name="com.example.attnd.fragments.SummaryFragment"
+        android:id="@+id/nav_summary_report">
+        <argument
+            android:name="className"
+            app:argType="string"/>
+    </fragment>
+    <fragment
+        android:label="Monthly Report"
+        android:name="com.example.attnd.fragments.MonthlyReportFragment"
+        android:id="@+id/nav_monthly_report">
+        <argument
+            android:name="className"
+            app:argType="string"/>
+    </fragment>
+    <fragment
+        android:label="Files"
+        android:name="com.example.attnd.FilesFragment"
+        android:id="@+id/nav_file"/>
+    <fragment
+        android:label="Menu"
+        android:name="com.example.attnd.fragments.MenuFragment"
+        android:id="@+id/nav_menu"/>
+    <fragment
+        android:label="Time Table"
+        android:name="com.example.attnd.fragments.TimeTableFragment"
+        android:id="@+id/nav_time_table"/>
+</navigation>
